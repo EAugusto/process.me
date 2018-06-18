@@ -5,7 +5,7 @@ Auxilia a criação de processos otimizadores que potencializem a execução de 
 É utilizado o conceito básico de Macro-processo, Processo, Tarefa e Atividade.
 
 A implementação será dividida em módulos para contemplar uma aplicação baseada em micro-serviços.
-Serão utilizadas técnicas, ferramentas e metodologias focadas nas ferramentas que apoiam a gestão do software com facilidade como: __Docker, Jenkins, Java 8, orientação a objetos, restfull api, monitoramento, etc.__
+Serão utilizadas técnicas, ferramentas e metodologias focadas nas ferramentas que apoiam a gestão do software com facilidade como: __Docker, Jenkins, Java 8, orientação a objetos, restful api, monitoramento, etc.__
 
 __Macro-processo:__ O usuário criará seus macro-processos o qual é o conjunto de regras de negócio definido o mais abstrato possível que englobe uma área do negócio que faça sentido sozinho.
 
