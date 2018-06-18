@@ -20,4 +20,16 @@ O processamento de streams é a forma de trabalhar desta ferramenta. Sempre pens
 
 __Deverá ser criado um mecanismo de registro de funções para uso nas tarefas.__
 
+## Micro-serviços
+### Em cada micro-serviço serão feitos o Cadastro, Alteração e Remoção dos modelos
+- Macro-processo: 
+- Processo: 
+- Tarefa: 
+- Atividade: 
+
+## Aplicação móvel
+Será criada uma aplicação móvel Android nativa que gerencia as requisições e executa as atividades.
+A ideia é que a aplicação móvel apenas dispare a solicitação e o trabalho pesado seja feito entre os micro-serviços.
+Estes por sua vez devem saber sua ordem no processo, o que esperar do próximo micro-serviço e o que fazer caso algum micro-serviço se comporte de forma não esperada.
+
 Vamos fazê-la juntos!
