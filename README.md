@@ -22,10 +22,10 @@ __Deverá ser criado um mecanismo de registro de funções para uso nas tarefas.
 
 ## Micro-serviços
 ### Em cada micro-serviço serão feitos o Cadastro, Alteração e Remoção dos modelos
-- Macro-processo: 
-- Processo: 
-- Tarefa: 
-- Atividade: 
+- Macro-processo: A informação mais gerencial e onde é iniciado o processo, onde se olha o status geral do processo.
+- Processo: O rastreamento, monitoramento, logging, e ordem da execução das tarefas.
+- Tarefa: A definição dos contratos de interação do micro-serviço: Entrada e Saída.
+- Atividade: A execução da função especificamente.
 
 ## Aplicação móvel
 Será criada uma aplicação móvel Android nativa que gerencia as requisições e executa as atividades.
