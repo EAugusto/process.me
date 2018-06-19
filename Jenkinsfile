@@ -23,8 +23,8 @@ pipeline {
         }
         failure {
           mail to: 's.eduardoaugusto@gmail.com',
-          subject: 'Failed Pipeline TakeITEasy',
-          body: 'Something is wrong'
+               subject: 'Failed Pipeline TakeITEasy',
+               body: 'Something is wrong'
         }
       }
     }
