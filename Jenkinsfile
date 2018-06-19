@@ -19,11 +19,7 @@ pipeline {
       }
       post {
         success {
-            sh '''
-              ls -lah
-              pwd
-            '''
-            junit 'target/surefire-reports/**/*.xml' 
+            junit 'takeiteasy-macroprocess/target/surefire-reports/**/*.xml' 
         }
       }
     }
