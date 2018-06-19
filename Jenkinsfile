@@ -21,6 +21,11 @@ pipeline {
         success {
             junit 'takeiteasy-macroprocess/target/surefire-reports/**/*.xml' 
         }
+        failure {
+          mail to: 's.eduardoaugusto@gmail.com',
+          subject: 'Failed Pipeline TakeITEasy',
+          body: 'Something is wrong'
+        }
       }
     }
   }
