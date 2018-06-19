@@ -15,7 +15,7 @@ pipeline {
     }
     stage ('Build') {
       steps {
-          sh 'mvn -f takeiteasy-macroprocess/pom.xml -Dmaven.test.failure.ignore=true install' 
+          sh 'mvn -f takeiteasy-macroprocess/pom.xml install' 
       }
       post {
         success {
