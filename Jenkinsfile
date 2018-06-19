@@ -19,6 +19,10 @@ pipeline {
       }
       post {
         success {
+            sh '''
+              ls -lah
+              pwd
+            '''
             junit 'target/surefire-reports/**/*.xml' 
         }
       }
